@@ -81,15 +81,15 @@ Other values include:
 
 ### Top-Left
 
-![Top-Left position](Screenshots/flex top-left.png)
+![Top-Left position](Screenshots/flex%20top-left.png)
 
 ### Center
 
-![Center position](screenshots/flex center.png)
+![Center position](Screenshots/flex%20center.png)
 
 ### Bottom-Right
 
-![Bottom-Right position](screenshots/flex bottom-right.png)
+![Bottom-Right position](Screenshots/flex%20bottom-right.png)
 
 ## Video Demonstration
 
