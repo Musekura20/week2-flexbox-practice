@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    min-height: 100vh;
+    display:flex;
+    animation: moveBoxes 15s infinite;
+}
+.parent div{
+    padding: 10px;
+    margin: 5px;
+    height: 70px;
+    width: 80px;
+    text-align: center;
+}
+#box1{
+    background-color: grey;
+}
+#box2{
+    background-color: rgb(244, 99, 225);
+}
+#box3{
+    background-color: rgb(219, 101, 12);
+}
+#box4{
+    background-color: rgb(243, 54, 98);
+}
+#box5{
+    background-color: rgb(146, 164, 239);
+}
+#box6{
+    background-color: rgb(31, 235, 109);
+}
+#box7{
+    background-color: rgb(240, 73, 12);
+}
+#box8{
+    background-color: rgb(153, 31, 235);
+}
+@keyframes moveBoxes{
+    /*top-left*/
+    0%{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    /*top-center*/
+    11.11%{
+        justify-content: center;
+        align-items: flex-start;
+    }
+    /*top-right*/
+    22.22%{
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+    /*center-left*/
+    33.33%{
+        justify-content: flex-start;
+        align-items: center;
+    }
+    /*center*/
+    44.44%{
+        justify-content: center;
+        align-items: center;
+    }
+    /*center-right*/
+    55.55%{
+        justify-content: flex-end;
+        align-items: center;
+    }
+    /*bottom-left*/
+    66.66%{
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    /*bottom-center*/
+    77.77%{
+        justify-content: center;
+        align-items: flex-end;
+    }
+    /*bottom-right*/
+    88.88%{
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    /*back to top-left*/
+    100%{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+}
+
+
+
