@@ -89,7 +89,7 @@ Other values include:
 
 ### Bottom-Right
 
-![Bottom-Right position](Screenshots/flex%20bottom-right.png)
+![Bottom-Right position](Screenshots/flex%20bottom%20right.png)
 
 ## Video Demonstration
 
