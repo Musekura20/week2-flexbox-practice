@@ -6,48 +6,64 @@
 
 This project is a practice of CSS flexbox properties where elements can be arranged in different positions of a web page.
 
+
 ## Flexbox Properties Used
 
 ### 1. `display: flex`
 
-This allows to arrange elements inside a container using flexbox
+The `display: flex` property makes an element a Flexbox container.
 
 ```css
 display: flex;
+```
+
+It allows us to arrange the items inside the container using Flexbox.
 
 ### 2. `flex-direction`
 
-This decides the direction of the items
+This decides the direction of the items.
 
 ```css
 flex-direction: row;
+```
 
-rows places items from left to right.
+`row` places items from left to right.
 
 ```css
 flex-direction: column;
+```
 
-columns places items from top to bottom
+`column` places items from top to bottom.
 
-### 4. `justify-center`
+### 3. `justify-content`
 
-This moves items along main direction(horizontally)
+This moves items along the main direction (horizontally).
 
 ```css
-justify:center;
+justify-content: center;
+```
 
 Other values include:
--flex-start: moves items to the start.
--flex-end: moves items to the end.
 
-### 2. `align-items`
+- `flex-start` - moves items to the start.
+- `center` - moves items to the center.
+- `flex-end` - moves items to the end.
 
-This moves items across the main direction (vertically)
+### 4. `align-items`
+
+This moves items across the main direction (vertically).
 
 ```css
 align-items: center;
+```
 
-### 5. `Flexbox positions in table`
+Other values include:
+
+- `flex-start` - moves items to the start.
+- `center` - moves items to the center.
+- `flex-end` - moves items to the end.
+
+## Flexbox Positions in Table
 
 | Position | `justify-content` | `align-items` |
 |----------|-------------------|---------------|
@@ -62,14 +78,27 @@ align-items: center;
 | Bottom-Right | `flex-end` | `flex-end` |
 
 ## Screenshots
-# Top-left
-# Center
-# Bottom-right
 
-## Video demonstration
-This video demonstrates my flexbox practice and the different box positions.
-Watch my flexbox demonstration video.
+### Top-Left
 
-## Github Pages
+![Top-Left position](Screenshots/flex top-left.png)
+
+### Center
+
+![Center position](screenshots/flex center.png)
+
+### Bottom-Right
+
+![Bottom-Right position](screenshots/flex bottom-right.png)
+
+## Video Demonstration
+
+This video demonstrates my Flexbox practice and the different box positions.
+
+[Watch my Flexbox demonstration video](https://drive.google.com/file/d/1G7s2PUiuKry1zDTuhlOV4jzfbeXhSEZz/view?usp=sharing)
+
+## GitHub Pages
+
 The project is also available as a live website using GitHub Pages.
-View the live website
+
+[View the live website](https://week2-flexbox-practice-arhw.onrender.com/)
